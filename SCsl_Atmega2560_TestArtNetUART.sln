@@ -3,7 +3,57 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio 15
 VisualStudioVersion = 15.0.28307.438
 MinimumVisualStudioVersion = 10.0.40219.1
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "SClb_Arduino_DMXEthernet", "..\SClb_Arduino_DMXEthernet\SClb_Arduino_DMXEthernet.vcxitems", "{3D1F9D2A-414A-47C7-99F9-37188D02D90C}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "SClb_ArtNetNode1", "..\SClb_ArtNetNode1\SClb_ArtNetNode1.vcxitems", "{12C6CFAF-DE00-4668-BCCA-B4366CD0D356}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "SClb_ArtNetNode2", "..\SClb_ArtNetNode2\SClb_ArtNetNode2.vcxitems", "{62874DC8-DB66-4ACB-85D2-6A090F850C2B}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "SClb_ArtNetNode3", "..\SClb_ArtNetNode3\SClb_ArtNetNode3.vcxitems", "{29839C34-13AF-4FF1-B483-BCBAF9385BE4}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "SClb_ArtNetNode4", "..\SClb_ArtNetNode4\SClb_ArtNetNode4.vcxitems", "{A73BCB90-BF80-43EB-BA76-53786C38C8D4}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "SClb_Atmega2560_DMXUART_C0", "..\SClb_Atmega2560_DMXUART_C0\SClb_Atmega2560_DMXUART_C0.vcxitems", "{60415FBB-B182-4FBE-9218-D76D5C06A252}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "SClb_Atmega2560_DMXUART_C1", "..\SClb_Atmega2560_DMXUART_C1\SClb_Atmega2560_DMXUART_C1.vcxitems", "{1BD73C50-A44F-4B43-A8F4-501260E9F68E}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "SClb_Atmega2560_DMXUART_C2", "..\SClb_Atmega2560_DMXUART_C2\SClb_Atmega2560_DMXUART_C2.vcxitems", "{61CC5993-604B-489E-A98D-CB1274903423}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "SClb_Atmega2560_DMXUART_C3", "..\SClb_Atmega2560_DMXUART_C3\SClb_Atmega2560_DMXUART_C3.vcxitems", "{60A26C3B-4E22-4EA5-B801-E959E0553E66}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "SCpj_TestArtNetUART", "SCpj_TestArtNetUART\SCpj_TestArtNetUART.vcxproj", "{C5F80730-F44F-4478-BDAE-6634EFC2CA88}"
+EndProject
 Global
+	GlobalSection(SharedMSBuildProjectFiles) = preSolution
+		..\SClb_ArtNetNode1\SClb_ArtNetNode1.vcxitems*{12c6cfaf-de00-4668-bcca-b4366cd0d356}*SharedItemsImports = 9
+		..\SClb_Atmega2560_DMXUART_C1\SClb_Atmega2560_DMXUART_C1.vcxitems*{1bd73c50-a44f-4b43-a8f4-501260e9f68e}*SharedItemsImports = 9
+		..\SClb_ArtNetNode3\SClb_ArtNetNode3.vcxitems*{29839c34-13af-4ff1-b483-bcbaf9385be4}*SharedItemsImports = 9
+		..\SClb_Arduino_DMXEthernet\SClb_Arduino_DMXEthernet.vcxitems*{3d1f9d2a-414a-47c7-99f9-37188d02d90c}*SharedItemsImports = 9
+		..\SClb_Atmega2560_DMXUART_C0\SClb_Atmega2560_DMXUART_C0.vcxitems*{60415fbb-b182-4fbe-9218-d76d5c06a252}*SharedItemsImports = 9
+		..\SClb_Atmega2560_DMXUART_C3\SClb_Atmega2560_DMXUART_C3.vcxitems*{60a26c3b-4e22-4ea5-b801-e959e0553e66}*SharedItemsImports = 9
+		..\SClb_Atmega2560_DMXUART_C2\SClb_Atmega2560_DMXUART_C2.vcxitems*{61cc5993-604b-489e-a98d-cb1274903423}*SharedItemsImports = 9
+		..\SClb_ArtNetNode2\SClb_ArtNetNode2.vcxitems*{62874dc8-db66-4acb-85d2-6a090f850c2b}*SharedItemsImports = 9
+		..\SClb_ArtNetNode4\SClb_ArtNetNode4.vcxitems*{a73bcb90-bf80-43eb-ba76-53786c38c8d4}*SharedItemsImports = 9
+		..\SClb_Arduino_DMXEthernet\SClb_Arduino_DMXEthernet.vcxitems*{c5f80730-f44f-4478-bdae-6634efc2ca88}*SharedItemsImports = 4
+		..\SClb_ArtNetNode1\SClb_ArtNetNode1.vcxitems*{c5f80730-f44f-4478-bdae-6634efc2ca88}*SharedItemsImports = 4
+		..\SClb_ArtNetNode2\SClb_ArtNetNode2.vcxitems*{c5f80730-f44f-4478-bdae-6634efc2ca88}*SharedItemsImports = 4
+		..\SClb_ArtNetNode3\SClb_ArtNetNode3.vcxitems*{c5f80730-f44f-4478-bdae-6634efc2ca88}*SharedItemsImports = 4
+		..\SClb_ArtNetNode4\SClb_ArtNetNode4.vcxitems*{c5f80730-f44f-4478-bdae-6634efc2ca88}*SharedItemsImports = 4
+		..\SClb_Atmega2560_DMXUART_C0\SClb_Atmega2560_DMXUART_C0.vcxitems*{c5f80730-f44f-4478-bdae-6634efc2ca88}*SharedItemsImports = 4
+		..\SClb_Atmega2560_DMXUART_C1\SClb_Atmega2560_DMXUART_C1.vcxitems*{c5f80730-f44f-4478-bdae-6634efc2ca88}*SharedItemsImports = 4
+		..\SClb_Atmega2560_DMXUART_C2\SClb_Atmega2560_DMXUART_C2.vcxitems*{c5f80730-f44f-4478-bdae-6634efc2ca88}*SharedItemsImports = 4
+		..\SClb_Atmega2560_DMXUART_C3\SClb_Atmega2560_DMXUART_C3.vcxitems*{c5f80730-f44f-4478-bdae-6634efc2ca88}*SharedItemsImports = 4
+	EndGlobalSection
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|x86 = Debug|x86
+		Release|x86 = Release|x86
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{C5F80730-F44F-4478-BDAE-6634EFC2CA88}.Debug|x86.ActiveCfg = Debug|Win32
+		{C5F80730-F44F-4478-BDAE-6634EFC2CA88}.Debug|x86.Build.0 = Debug|Win32
+		{C5F80730-F44F-4478-BDAE-6634EFC2CA88}.Release|x86.ActiveCfg = Release|Win32
+		{C5F80730-F44F-4478-BDAE-6634EFC2CA88}.Release|x86.Build.0 = Release|Win32
+	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
 	EndGlobalSection
